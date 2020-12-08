@@ -21,6 +21,7 @@ namespace Companie_de_voyage_mode_deconnecte
             adapter = new SqlDataAdapter("select * from chauffeur;", connectionString);
             dataSet.Clear();
             adapter.Fill(dataSet, "chauffeur");
+            NombreChauffeur.Text = dataSet.Tables["chauffeur"].Rows.Count.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -57,7 +58,22 @@ namespace Companie_de_voyage_mode_deconnecte
 
         private void button4_Click(object sender, EventArgs e)
         {
-            i = dataSet.Tables["chauffeur"].Rows.Count;
+            i = dataSet.Tables["chauffeur"].Rows.Count-1;
+            Remplir();
+        }
+
+        private void Rechercher_Click(object sender, EventArgs e)
+        {
+            for(int j = 0; j < dataSet.Tables["chauffeur"].Rows.Count - 1;j++)
+            {
+                if (dataSet.Tables["chauffeur"].Rows[j].ItemArray[0].ToString() == RechercheTBX.Text)
+                {
+                    i = j;
+                    Remplir();
+                    return;
+                }
+            }
+            MessageBox.Show("ce chauffeur n'est pas existe");
         }
     }
 }

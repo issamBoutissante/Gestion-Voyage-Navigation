@@ -53,14 +53,39 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GereData.cs" />
     <Compile Include="NavigationChauffeur.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NavigationChauffeur.Designer.cs">
       <DependentUpon>NavigationChauffeur.cs</DependentUpon>
     </Compile>
+    <Compile Include="NavigationVehicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationVehicule.Designer.cs">
+      <DependentUpon>NavigationVehicule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationVoyage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationVoyage.Designer.cs">
+      <DependentUpon>NavigationVoyage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RechercheBillet_Voyage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheBillet_Voyage.Designer.cs">
+      <DependentUpon>RechercheBillet_Voyage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RechercheChauffeur_Vehicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheChauffeur_Vehicule.Designer.cs">
+      <DependentUpon>RechercheChauffeur_Vehicule.cs</DependentUpon>
+    </Compile>
     <Compile Include="RechercheVehicule_Chauffeur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,11 +98,23 @@
     <Compile Include="RechercheVoyage_Chauffeur.Designer.cs">
       <DependentUpon>RechercheVoyage_Chauffeur.cs</DependentUpon>
     </Compile>
+    <Compile Include="RechercheVoyage_Vehicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheVoyage_Vehicule.Designer.cs">
+      <DependentUpon>RechercheVoyage_Vehicule.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NavigationChauffeur.resx">
       <DependentUpon>NavigationChauffeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationVehicule.resx">
+      <DependentUpon>NavigationVehicule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationVoyage.resx">
+      <DependentUpon>NavigationVoyage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,11 +125,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RechercheBillet_Voyage.resx">
+      <DependentUpon>RechercheBillet_Voyage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RechercheChauffeur_Vehicule.resx">
+      <DependentUpon>RechercheChauffeur_Vehicule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RechercheVehicule_Chauffeur.resx">
       <DependentUpon>RechercheVehicule_Chauffeur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RechercheVoyage_Chauffeur.resx">
       <DependentUpon>RechercheVoyage_Chauffeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RechercheVoyage_Vehicule.resx">
+      <DependentUpon>RechercheVoyage_Vehicule.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

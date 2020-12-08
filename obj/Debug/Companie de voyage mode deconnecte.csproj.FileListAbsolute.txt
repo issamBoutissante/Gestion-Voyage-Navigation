@@ -11,3 +11,21 @@ C:\Users\bouti\OneDrive\سطح المكتب\web dev client serveur\Companie de v
 C:\Users\bouti\OneDrive\سطح المكتب\web dev client serveur\Companie de voyage mode deconnecte\obj\Debug\Companie de voyage mode deconnecte.pdb
 C:\Users\bouti\OneDrive\سطح المكتب\web dev client serveur\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.RechercheVoyage_Chauffeur.resources
 C:\Users\bouti\OneDrive\سطح المكتب\web dev client serveur\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.RechercheVehicule_Chauffeur.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\bin\Debug\Companie de voyage mode deconnecte.exe.config
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\bin\Debug\Companie de voyage mode deconnecte.exe
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\bin\Debug\Companie de voyage mode deconnecte.pdb
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie de voyage mode deconnecte.csprojAssemblyReference.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.Form1.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.NavigationChauffeur.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.Properties.Resources.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.RechercheVehicule_Chauffeur.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.RechercheVoyage_Chauffeur.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie de voyage mode deconnecte.csproj.GenerateResource.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie de voyage mode deconnecte.csproj.CoreCompileInputs.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie de voyage mode deconnecte.exe
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie de voyage mode deconnecte.pdb
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.NavigationVehicule.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.RechercheVoyage_Vehicule.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.RechercheChauffeur_Vehicule.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.NavigationVoyage.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Companie de voyage mode deconnecte\obj\Debug\Companie_de_voyage_mode_deconnecte.RechercheBillet_Voyage.resources

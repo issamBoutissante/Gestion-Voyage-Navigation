@@ -37,5 +37,35 @@ namespace Companie_de_voyage_mode_deconnecte
         {
             openForm(new RechercheVoyage_Chauffeur());
         }
+
+        private void rechercheVehiculeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new RechercheVehicule_Chauffeur());
+        }
+
+        private void navigationToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            openForm(new NavigationVehicule());
+        }
+
+        private void rechercheVoyageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new RechercheVoyage_Vehicule());
+        }
+
+        private void rechercheChauffeurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new RechercheChauffeur_Vehicule());
+        }
+
+        private void navigationToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            openForm(new NavigationVoyage());
+        }
+
+        private void rechercheVehiculeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            openForm(new RechercheBillet_Voyage());
+        }
     }
 }

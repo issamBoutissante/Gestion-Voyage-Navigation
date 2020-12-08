@@ -30,9 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.NombreChauffeur = new System.Windows.Forms.Label();
-            this.Recherche = new System.Windows.Forms.TextBox();
+            this.RechercheTBX = new System.Windows.Forms.TextBox();
             this.FicheChauffeur = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -48,6 +47,7 @@
             this.Prenom = new System.Windows.Forms.TextBox();
             this.Nom = new System.Windows.Forms.TextBox();
             this.Id_chauffeur = new System.Windows.Forms.TextBox();
+            this.Rechercher = new System.Windows.Forms.Button();
             this.FicheChauffeur.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,17 +73,6 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Nombre Chauffeur";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Blue;
-            this.label3.Location = new System.Drawing.Point(435, 78);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Recherche";
-            // 
             // NombreChauffeur
             // 
             this.NombreChauffeur.AutoSize = true;
@@ -94,12 +83,12 @@
             this.NombreChauffeur.Size = new System.Drawing.Size(0, 20);
             this.NombreChauffeur.TabIndex = 4;
             // 
-            // Recherche
+            // RechercheTBX
             // 
-            this.Recherche.Location = new System.Drawing.Point(573, 77);
-            this.Recherche.Name = "Recherche";
-            this.Recherche.Size = new System.Drawing.Size(105, 20);
-            this.Recherche.TabIndex = 5;
+            this.RechercheTBX.Location = new System.Drawing.Point(573, 77);
+            this.RechercheTBX.Name = "RechercheTBX";
+            this.RechercheTBX.Size = new System.Drawing.Size(105, 20);
+            this.RechercheTBX.TabIndex = 5;
             // 
             // FicheChauffeur
             // 
@@ -262,15 +251,27 @@
             this.Id_chauffeur.Size = new System.Drawing.Size(105, 20);
             this.Id_chauffeur.TabIndex = 7;
             // 
+            // Rechercher
+            // 
+            this.Rechercher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Rechercher.ForeColor = System.Drawing.Color.Blue;
+            this.Rechercher.Location = new System.Drawing.Point(438, 72);
+            this.Rechercher.Name = "Rechercher";
+            this.Rechercher.Size = new System.Drawing.Size(112, 27);
+            this.Rechercher.TabIndex = 20;
+            this.Rechercher.Text = "Recherche";
+            this.Rechercher.UseVisualStyleBackColor = true;
+            this.Rechercher.Click += new System.EventHandler(this.Rechercher_Click);
+            // 
             // NavigationChauffeur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Rechercher);
             this.Controls.Add(this.FicheChauffeur);
-            this.Controls.Add(this.Recherche);
+            this.Controls.Add(this.RechercheTBX);
             this.Controls.Add(this.NombreChauffeur);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "NavigationChauffeur";
@@ -286,9 +287,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label NombreChauffeur;
-        private System.Windows.Forms.TextBox Recherche;
+        private System.Windows.Forms.TextBox RechercheTBX;
         private System.Windows.Forms.GroupBox FicheChauffeur;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
@@ -304,5 +304,6 @@
         private System.Windows.Forms.TextBox Prenom;
         private System.Windows.Forms.TextBox Nom;
         private System.Windows.Forms.TextBox Id_chauffeur;
+        private System.Windows.Forms.Button Rechercher;
     }
 }
