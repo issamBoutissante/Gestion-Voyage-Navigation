@@ -137,7 +137,7 @@
             // 
             this.rechercheVehiculeToolStripMenuItem1.Name = "rechercheVehiculeToolStripMenuItem1";
             this.rechercheVehiculeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.rechercheVehiculeToolStripMenuItem1.Text = "Recherche Vehicule";
+            this.rechercheVehiculeToolStripMenuItem1.Text = "Recherche Billets";
             this.rechercheVehiculeToolStripMenuItem1.Click += new System.EventHandler(this.rechercheVehiculeToolStripMenuItem1_Click);
             // 
             // Form1
